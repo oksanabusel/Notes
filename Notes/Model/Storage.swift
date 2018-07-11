@@ -8,6 +8,10 @@
 
 import UIKit
 
-class Storage: NSObject {
-
+class Storage {
+    static var shared = Storage()
+    var notes: [NoteModel] = []
+    
+    private init() {}
+    
 }

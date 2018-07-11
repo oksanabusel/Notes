@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TaskModel {
+class NoteModel {
     var noteDescription: String = ""
     var creationDate: String = ""
     var location: String = ""
